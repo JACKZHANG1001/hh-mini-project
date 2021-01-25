@@ -2,7 +2,8 @@
 ## Preface
 在做这个迷你练习项目前，请提前阅读：
 1. [廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-2. [廖雪峰的JavaScript教程（快速入门 & Node.js部分）](https://www.liaoxuefeng.com/wiki/1022910821149312)
+2. [廖雪峰的JavaScript教程（快速入门 & Node.js【安装Node.js和npm；第一个Node程序；
+搭建Node开发环境（选读）；模块】部分）](https://www.liaoxuefeng.com/wiki/1022910821149312)
 
 在做这个迷你练习项目前，你应该已经掌握了：
 ```
@@ -33,3 +34,39 @@ git tag -a yourTagName -m "your message" commitID // yourTagName -> commitID 相
 具体关于Node.js环境搭建的问题：
 关于不同系统的配置问题请仔细阅读廖雪峰的博客并Google相关资料。
 ## Start
+### Goal
+在本项目中你将完成用JavaScript打印100以内所有素数的项目。文件树如下：
+```
++ hh-mini-project
+|
+| README.md 
+|
+| hello.js // example code (type node hello.js to run)
+|
+| main.js // you need to create this file
+|
+| + src // you need to create this directory
+| |
+| | isPrime.js // you need to create this file 
+|
++
+```
+### Procedure
+1. 首先，把此仓库clone到本地。
+2. 创建一个dev分支。
+3. 在分支上完成所有文件的创建以及修改（注意随时用git记录重要修改）。
+4. 在终端输入 node main.js。如果输出不对，返回上一步修改并用git记录。
+5. 测试成功后，返回master分支。
+6. 利用--no-ff模式将dev分支merge到master分支上。
+7. 将master分支上传到你的GitHub远程仓库。
+
+## NOTES
+1. 在JavaScript中一个函数的声明方式如下：
+```
+function foo(...) {
+    // code...
+}
+```
+2. 模块的导出请仔细阅读廖雪峰博客关于模块的部分（很像Python的import）。
+
+
