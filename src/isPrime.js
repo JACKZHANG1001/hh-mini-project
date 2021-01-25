@@ -3,7 +3,7 @@
 function isPrime(num) {
     if (num <= 1) return false;
     else {
-        var i = 1;
+        var i = 2;
         for (; i < num; i++) {
             if (num % i === 0)
                 return false;

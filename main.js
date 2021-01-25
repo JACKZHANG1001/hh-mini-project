@@ -1,7 +1,7 @@
 'use strict';
 
 // import isPrime module
-var isPrime = require('src/isPrime');
+var isPrime = require('./src/isPrime');
 
 var temp = 1;
 
